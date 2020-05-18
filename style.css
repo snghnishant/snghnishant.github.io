@@ -6,7 +6,7 @@
 }
 body{
     width:100vw;
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-flow: row nowrap
 }
@@ -88,6 +88,7 @@ body{
   flex-flow: column nowrap;
   justify-content: space-around;
   transition: all 0.4s ease;
+  background-color: rgba(153, 153, 153, 0.1);
 }
 .menu-list>a{
   white-space: nowrap;
@@ -113,29 +114,36 @@ body{
   text-transform: uppercase;
   padding-bottom: 5px;
   border-bottom:solid thin;
+  color:#000;
 }
 .myBtn{
   margin:10px 0;
   background: none;
-  border:solid thin #000;
+  border: solid #000;
+  color:#000;
   border-radius:3px;
   padding:16px 32px;
 }
-
-#main{
-  height:100%;
-}
 .landing{
+  color:#000;
   transition: all 0.3s linear;
-  margin:10% 20%;
+  margin:15% 20%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 .landing>h1{
   font-size:3rem;
   font-weight: 900;
   font-family: 'Playfair Display SC', serif;
-  margin-bottom: 30px;
-  white-space: nowrap;
+  white-space: wrap;
+  text-align:left;
 }
+.landing>button{
+  margin:50px 0;
+}
+
 .footer{
   transition: all 0.4s linear;
   width:100vw;
@@ -172,6 +180,9 @@ body{
 @media only screen and (max-width: 600px) {
   html{
     font-size: 10px;
+  }
+  .landing{
+    margin:50% 20%;
   }
   .landing>h1{
     font-size: 2rem;
