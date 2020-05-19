@@ -86,9 +86,11 @@ body{
   height:100%;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
   transition: all 0.4s ease;
   background-color: rgba(153, 153, 153, 0.1);
+}
+.menu-list{
+  margin-top:100px;
 }
 .menu-list>a{
   white-space: nowrap;
@@ -104,6 +106,7 @@ body{
   text-decoration: none;
 }
 .menu-info{
+  margin-top:100px; 
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -124,6 +127,9 @@ body{
   border-radius:3px;
   padding:16px 32px;
 }
+#main{
+  transition: all 0.5s ease;
+}
 .landing{
   color:#000;
   transition: all 0.3s linear;
@@ -143,7 +149,6 @@ body{
 .landing>button{
   margin:30px 0;
 }
-
 .footer{
   transition: all 0.4s linear;
   width:100vw;
