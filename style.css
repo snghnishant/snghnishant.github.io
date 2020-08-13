@@ -89,21 +89,21 @@ body{
   transition: all 0.4s ease;
   background-color: rgba(153, 153, 153, 0.1);
 }
-.menu-list{
-  margin-top:100px;
-}
-.menu-list>a{
+.menu-items{
+  background-color: #000;
+  color:#fff;
   white-space: nowrap;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color:#000;
+  text-transform: capitalize;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   padding:16px 32px;
   margin:10px 0;
   text-decoration: none;
+}
+.menu-list{
+  margin-top:100px;
 }
 .menu-info{
   margin-top:100px; 
