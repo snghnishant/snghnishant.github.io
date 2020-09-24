@@ -92,8 +92,9 @@ body{
   background-color:none;
   color:#000;
   white-space: nowrap;
-  font-size: 1.2rem;
-  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
@@ -106,10 +107,13 @@ body{
 }
 .myBtn{
   margin:10px 0;
-  background:#e74315;
-  border: none;
-  color:#000;
-  padding:16px 32px;
+  background:none;
+  border: solid 2px #e74315;
+  color:#e74315;
+  padding:10px 15px;
+  text-transform: capitalize  ;
+  font-size: 1rem;
+  font-weight: bold;
 }
 #main{
   transition: all 0.5s ease;
@@ -127,18 +131,18 @@ body{
 .landing>div{
   width:50%;
   padding:100px;
-  text-align: center;
+  text-align: left;
 }
-.landing>div>h1{
-  font-size:2.5rem;
-  font-weight: 900;
-  font-family: 'Playfair Display SC', serif;
+#hello-text{
+  font-size:1.5rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
   white-space: wrap;
 }
-.landing>div>p{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 1.5rem;
-  margin:30px 0;
+.hello-text-color{
+  color:#e74315;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .landing>div>button{
   cursor: pointer;
@@ -157,7 +161,7 @@ body{
   width:100%;
   padding:50px 4.6vw;
 }
-.footer-contact h1, p{
+.footer-contact h1{
   font-family: 'Playfair Display SC', serif;
   padding:10px 0;
 }
@@ -165,21 +169,22 @@ body{
   margin:10px 0;
   background:#e74315;
   border:none;
-  color:#000;
-  padding:10px 20px;
+  color:#fff;
+  padding:10px 15px;
+  font-size: 12px;
 }
 .footer-links{
   display: flex;
   flex-flow: row nowrap;
-  border:solid 0.5px #fff;
+  
 }
 .footer-links>div{
-  width:33%;
+  width:50%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding:50px 4.6vw;
+  padding:0 4.6vw;
 }
 .footer-links>div>a{
   color: #fff;
@@ -188,16 +193,6 @@ body{
   text-decoration: none;
   cursor: pointer;
   margin:2px 5px;
-}
-.footer-links>div:nth-child(2){
-  border-left:solid 1px #fff;
-  border-right:solid 1px #fff;
-}
-.footer-logo>p{
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  color:#fff;
 }
 .footer-work>a{
   background-color: #fff;
@@ -215,7 +210,6 @@ body{
   }
   .landing{
     flex-flow: column nowrap;
-    
   }
   .landing>div{
     width:100%;
@@ -238,5 +232,8 @@ body{
   }
   .footer-links>div{
     padding:5px;
+  }
+  .footer-work>a>img{
+    width:20px;
   }
 }
