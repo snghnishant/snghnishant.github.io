@@ -93,7 +93,6 @@ body{
   color:#000;
   white-space: nowrap;
   font-size: 1rem;
-  font-weight: bold;
   text-transform: uppercase;
   display: flex;
   flex-flow: column nowrap;
@@ -108,12 +107,11 @@ body{
 .myBtn{
   margin:10px 0;
   background:none;
-  border: solid 2px #e74315;
-  color:#e74315;
+  border: solid 2px blue;
+  color:blue;
   padding:10px 15px;
-  text-transform: capitalize  ;
+  text-transform: capitalize;
   font-size: 1rem;
-  font-weight: bold;
 }
 #main{
   transition: all 0.5s ease;
@@ -140,7 +138,7 @@ body{
   white-space: wrap;
 }
 .hello-text-color{
-  color:#e74315;
+  color:blue;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -167,7 +165,7 @@ body{
 }
 .mail-footer{
   margin:10px 0;
-  background:#e74315;
+  background:blue;
   border:none;
   color:#fff;
   padding:10px 15px;
@@ -200,7 +198,7 @@ body{
   border-radius: 2px;
 }
 .footer-attribution{
-  color:#fff;
+  color:blue;
   padding:10px 0;
   text-align: center;
 }
