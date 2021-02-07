@@ -1,6 +1,7 @@
 const toggler = document.getElementById('toggler');
 const nav = document.getElementById('menu');
 const main = document.getElementById('main');
+const timeline = document.getElementById('timeline');
 
 function menu(){
     if(toggler.checked){
@@ -10,5 +11,13 @@ function menu(){
     }else{
         nav.style.width = "0";
         main.style.opacity = "1";
+    }
+}
+
+function timelineToggler() {
+    if(timeline.style.display === "none"){
+        timeline.style.display = "block";
+    }else{
+        timeline.style.display = "none";
     }
 }
