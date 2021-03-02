@@ -176,11 +176,11 @@ body {
 #timeline > dl > dt {
 	font-weight: bold;
 	padding: 5px 0;
+	text-decoration: underline #aaa;
 }
 #timeline > dl > dd {
 	font-weight: 350;
 	color: #2d2d2d;
-	padding-left: 10px;
 	margin-bottom: 10px;
 }
 .landing {
@@ -201,31 +201,41 @@ body {
 	opacity: 0.15;
 }
 .landing > div {
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: start;
 	width: 100%;
 	padding: 100px;
 	text-align: left;
 }
-blockquote {
-	text-transform: uppercase;
-	margin: 50px 0;
-	padding: 30px;
-	font-size: 5rem;
-	font-weight: 700;
-	color: rgba(200, 200, 200, 0.4);
-}
+
 #hello-text {
-	font-size: 3.5rem;
-	font-weight: 700;
+	font-size: 3rem;
+	font-weight: 500;
 	font-family: "Montserrat", sans-serif;
 	white-space: wrap;
 }
 .blue-text-color {
 	color: blue;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
+	font-weight: 350;
 }
+.gray-text-color {
+	color: #999;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 350;
+}
+
 .landing > div > button {
 	cursor: pointer;
+	background-color: #2d2d2d;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: 350;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 #about-div {
 	margin: auto;
@@ -236,11 +246,11 @@ blockquote {
 }
 #about-div > h1,
 h4 {
-	border-bottom: solid thin #e4e4e4;
+	color: #aaa;
+	font-weight: 400;
 	font-family: "Playfair Display SC", serif;
 	line-height: 28px;
-	color: #2d2d2d;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	width: 100%;
 	padding: 15px 0;
 }
