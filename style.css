@@ -314,6 +314,9 @@ h4 {
 	border: none;
 	border-radius: 5px;
 }
+.footer-work > a > img{
+	width: 2rem;
+}
 .footer-attribution {
 	color: #fff;
 	padding: 10px 0;
