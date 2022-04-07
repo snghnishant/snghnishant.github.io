@@ -15,7 +15,7 @@ function menu(){
 }
 
 function timelineToggler() {
-    if(timeline.style.display === "none"){
+    if(timeline.style.display !== "block"){
         timeline.style.display = "block";
     }else{
         timeline.style.display = "none";
